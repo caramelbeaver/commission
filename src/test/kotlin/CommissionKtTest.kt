@@ -43,7 +43,7 @@ class CommissionKtTest {
         val sumAmount= 80000
         val card = "Maestro"
         val result = payment (12500, sumAmount, card)
-        assertEquals(95.0,result)
+        assertEquals(55.0,result)
     }
     @Test
     fun payment_maestro_min() {
